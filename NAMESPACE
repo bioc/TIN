@@ -1,0 +1,20 @@
+export(firmaAnalysis,
+    readGeneSummaries,
+    aberrantExonUsage,
+    probesetPermutations,
+    correlation,
+    clusterPlot,
+    scatterPlot,
+    correlationPlot,
+    posNegCorrPlot,
+    geneSetCorrelation
+)
+import(aroma.affymetrix)
+import(data.table)
+import(impute)
+importFrom(stringr,str_sub)
+importFrom(squash,makecmap)
+importFrom(squash,dendromat)
+importFrom(squash,cmap)
+importFrom(squash,hkey)
+importFrom(WGCNA,corAndPvalue)

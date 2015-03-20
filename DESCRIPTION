@@ -1,0 +1,22 @@
+Package: TIN
+Type: Package
+Title: Transcriptome instability analysis
+Version: 0.99.5
+Date: 2014-07-14
+Author: Bjarne Johannessen, Anita Sveen and Rolf I. Skotheim
+Maintainer: Bjarne Johannessen <bjajoh@rr-research.no>
+VignetteBuilder: knitr
+Depends: R (>= 2.12.0), data.table, impute, aroma.affymetrix
+Imports: WGCNA, squash, stringr
+Suggests: knitr, aroma.light, affxparser, RUnit, BiocGenerics
+biocViews: ExonArray, Microarray, GeneExpression, AlternativeSplicing,
+        Genetics, DifferentialSplicing
+Description: The TIN package implements a set of tools for
+        transcriptome instability analysis based on exon expression
+        profiles. Deviating exon usage is studied in the context of
+        splicing factors to analyse to what degree transcriptome
+        instability is correlated to splicing factor expression. In the
+        transcriptome instability correlation analysis, the data is
+        compared to both random permutations of alternative splicing
+        scores and expression of random gene sets.
+License: Artistic-2.0
